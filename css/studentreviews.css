@@ -1,0 +1,57 @@
+.testemonial-carousel-section {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F5F6F7;
+  }
+  .testemonial-card  {
+    width: 320px;
+    height: 250px;
+    background-color: #21282E;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .testemonial-card  p {
+    font-size: 1.2rem;
+    color: white;
+    justify-content: left;
+  }
+  .testemonial-card  h3{
+    color: rgb(255, 207, 92);
+  }
+  .testemonial-card  h3 .white-txt{
+    color: white;
+  }
+  .testemonial-card  .apply-btn {
+    background-color: #43A724;
+    color: white;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .testemonial-card  .apply-btn:hover {
+    background-color:#6fb958;
+  }
+
+  .testemonial-carousel-section .owl-carousel .owl-nav button.owl-prev,
+  .testemonial-carousel-section .owl-carousel .owl-nav button.owl-next {
+      position: absolute;
+      top: -40px;
+      z-index: 1000;
+      color: black;
+      border: none;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+
+  .testemonial-carousel-section .owl-carousel .owl-nav button.owl-prev {
+      left: 90%;
+  }
+
+  .testemonial-carousel-section .owl-carousel .owl-nav button.owl-next {
+      right: 10px;
+  }

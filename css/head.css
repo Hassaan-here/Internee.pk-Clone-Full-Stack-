@@ -1,0 +1,118 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 100%;
+  min-height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+  margin: 10px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0px 10px;
+  padding: 0px 10px;
+}
+
+nav ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+button {
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  height: 55px;
+}
+
+.job-portal {
+  background-color: rgb(67, 167, 36);
+  border-radius: 35px;
+}
+
+.job-portal a {
+  color: white;
+}
+
+.internee-login {
+  background-color: #f8f8f8;
+  border: 3px solid rgb(67, 167, 36);
+  border-radius: 35px;
+}
+
+.internee-login a {
+  color: rgb(67, 167, 36);
+}
+.hidden-btns{
+  display: none;
+}
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: auto;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 20px;
+    z-index: 1000; /* Ensure it covers all other content */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar.active ul {
+    display: flex;
+  }
+  .internee-login,
+  .job-portal {
+   display: none;
+  }
+  .hidden-btns{
+    display: block;
+  }
+}

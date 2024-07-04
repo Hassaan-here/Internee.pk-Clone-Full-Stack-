@@ -1,0 +1,126 @@
+.coursePortal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden; 
+    margin: 20px 0px;
+ }
+ 
+ .course-image {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 50%;
+    transform: translateX(-15%);
+    overflow: hidden;
+ }
+ 
+ .course-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+ }
+ 
+ .course-content {
+    margin-left: 50%;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box; /* Added to include padding in the width */
+ }
+ 
+ .course-content-header > h2 {
+    font-size: 3rem;
+ }
+ 
+ .course-content-header > h3 {
+    font-size: 2rem;
+ }
+ 
+ .course-content-content {
+    display: flex;
+    flex-wrap: wrap; /* Added to ensure elements wrap within the container */
+ }
+ 
+ .course-content-content .col-1, .col-2 {
+    padding: 20px;
+    flex: 1; /* Added for responsive layout */
+    box-sizing: border-box; /* Added to include padding in the width */
+ }
+ 
+ .course-content-content .col-1 .content-1, 
+ .course-content-content .col-1 .content-2,
+ .course-content-content .col-2 .content-1, 
+ .course-content-content .col-2 .content-2 {
+    display: flex; 
+    padding: 10px;
+ }
+ 
+ /* First column */
+ .course-content-content .col-1 .content-1 .image,
+ .course-content-content .col-1 .content-2 .image,
+ .course-content-content .col-2 .content-1 .image,
+ .course-content-content .col-2 .content-2 .image {
+    margin: 0 15px 0 0;
+ }
+ 
+ .course-content-content .col-1 .content-1 .image img,
+ .course-content-content .col-1 .content-2 .image img,
+ .course-content-content .col-2 .content-1 .image img,
+ .course-content-content .col-2 .content-2 .image img {
+    padding: 5px;
+    width: 40px;
+ }
+
+ 
+ .course-content-content .col-1 p,
+ .course-content-content .col-2 p {
+    font-size: large;
+    color: #666;
+    height: 300px;
+ }
+ 
+
+ @media (max-width: 768px) {
+   .coursePortal {
+      padding: 5px; 
+   }
+
+   .course-image {
+      position: static; 
+      width: 100%;  
+      max-width: 100%; 
+      margin-bottom: 20px; 
+   }
+
+   .course-content {
+      width: 100%; 
+      padding: 10px;
+      margin-left: 0; 
+   }
+
+   .course-content-header > h2 {
+      font-size: 2rem; 
+   }
+
+   .course-content-header > h3 {
+      font-size: 1.5rem; 
+   }
+
+   .course-content-content .col-1, 
+   .course-content-content .col-2 {
+      padding: 10px; 
+      width: 100%; 
+   }
+
+   .course-content-content .content-1, 
+   .course-content-content .content-2 {
+      padding: 5px; 
+   }
+
+   .course-content-content .col-1 p,
+   .course-content-content .col-2 p {
+      height: auto; 
+      font-size: medium; 
+   }
+}

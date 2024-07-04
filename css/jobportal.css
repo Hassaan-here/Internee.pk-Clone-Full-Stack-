@@ -1,0 +1,128 @@
+.Jobportal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0px;
+    background-color: #F9F9F9;
+}
+
+.Jobportal-image {
+    position: absolute;
+    /* top: 10%; */
+    right: 0;
+    width: 50%;
+    overflow: hidden;
+    max-width: 50%; 
+}
+
+.Jobportal-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Jobportal-content {
+    padding: 20px;
+    width: 50%;
+    margin-right: 50%;
+}
+
+.Jobportal-content-header > h2 {
+    font-size: 3rem;
+}
+
+.Jobportal-content-header > h3 {
+    font-size: 2rem;
+}
+
+.Jobportal-content-content {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%; 
+}
+
+.Jobportal-content-content .col-1, .col-2 {
+    padding: 20px;
+    flex: 1; 
+    box-sizing: border-box; 
+}
+
+.Jobportal-content-content .content-1, .content-2 {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* First column */
+.Jobportal-content-content .col-1 .content-1 .image,
+.Jobportal-content-content .col-1 .content-2 .image,
+.Jobportal-content-content .col-2 .content-1 .image,
+.Jobportal-content-content .col-2 .content-2 .image {
+    margin: 0 15px 0 0;
+}
+
+.Jobportal-content-content .col-1 .content-1 .image img,
+.Jobportal-content-content .col-1 .content-2 .image img,
+.Jobportal-content-content .col-2 .content-1 .image img,
+.Jobportal-content-content .col-2 .content-2 .image img {
+    padding: 5px;
+    width: 40px;
+}
+
+.Jobportal-content-content .col-1 p,
+.Jobportal-content-content .col-2 p {
+    font-size: large;
+    color: #666;
+    height: 100px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .Jobportal {
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    .Jobportal-image {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px; /* Add some spacing below the image */
+    }
+    
+    .Jobportal-content {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .Jobportal-content-header > h2 {
+        font-size: 2rem;
+    }
+    
+    .Jobportal-content-header > h3 {
+        font-size: 1.5rem;
+    }
+    
+    .Jobportal-content-content {
+        flex-direction: column;
+    }
+    
+    .Jobportal-content-content .col-1, .Jobportal-content-content .col-2 {
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .Jobportal-content-content .content-1, .Jobportal-content-content .content-2 {
+        padding: 5px;
+    }
+    
+    .Jobportal-content-content .col-1 p,
+    .Jobportal-content-content .col-2 p {
+        height: auto;
+        font-size: medium;
+    }
+}

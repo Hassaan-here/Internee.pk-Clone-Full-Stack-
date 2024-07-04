@@ -1,0 +1,136 @@
+.milestone-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.milestone-container {
+    width: 80%;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+    margin: 50px;
+    border-left: 2px solid #ccc;
+  }
+  
+  .milestone {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 40px; */
+    position: relative;
+  }
+  
+  .milestone:last-child {
+    margin-bottom: 0;
+  }
+  .inline-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dots {
+    width: 30px;
+    height: 30px;
+    background-color: #22C55E;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    left: -57px;
+    z-index: 1;
+  }
+  
+  .icon {
+    flex-shrink: 0;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f7fa; 
+    border-radius: 50%;
+    margin:  40px;
+  }
+  
+  .icon img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .text h2 {
+    margin: 0;
+  }
+  
+  .text p {
+    justify-content: left;
+    font-size: larger;
+    margin: 10px 0 0;
+    color: #666;
+  }
+  
+/* form */
+.form-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 2%;
+    left: 70%;
+}
+
+.form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container form label {
+    font-size: 16px;
+    margin:0px auto 8px 0px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container textarea {
+    resize: vertical;
+    height: 120px;
+}
+.form-container form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #22C55E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+

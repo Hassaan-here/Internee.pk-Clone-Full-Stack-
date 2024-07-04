@@ -1,0 +1,124 @@
+.LMS {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: #F9F9F9;
+    margin: 20px 0px;
+}
+
+.LMS-image {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+.LMS-image img {
+    width: 90%; /* Adjusted */
+    height: auto;
+    display: block;
+}
+
+.LMS-content {
+    padding: 20px;
+    width: 50%;
+    margin-right: 0; /* Adjusted */
+}
+
+.LMS-content-header > h2 {
+    font-size: 3rem;
+}
+
+.LMS-content-header > h3 {
+    font-size: 2rem;
+}
+
+.LMS-content-content {
+    display: flex;
+    flex-wrap: wrap; /* Added to prevent overflow */
+}
+
+.LMS-content-content .col-1, .col-2 {
+    padding: 20px;
+    flex: 1; /* Added for responsiveness */
+  
+}
+
+.LMS-content-content .content-1, .content-2 {
+    display: flex;
+    padding: 10px;
+}
+
+/* First column */
+.LMS-content-content .col-1 .content-1 .image,
+.LMS-content-content .col-1 .content-2 .image,
+.LMS-content-content .col-2 .content-1 .image,
+.LMS-content-content .col-2 .content-2 .image {
+    margin: 0 15px 0 0;
+}
+
+.LMS-content-content .col-1 .content-1 .image img,
+.LMS-content-content .col-1 .content-2 .image img,
+.LMS-content-content .col-2 .content-1 .image img,
+.LMS-content-content .col-2 .content-2 .image img {
+    padding: 5px;
+    width: 40px;
+}
+
+.LMS-content-content .col-1 p,
+.LMS-content-content .col-2 p {
+    font-size: large;
+    color: #666;
+    height: 200px;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .LMS {
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    .LMS-image {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px; /* Add some spacing below the image */
+    }
+    
+    .LMS-content {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .LMS-content-header > h2 {
+        font-size: 2rem;
+    }
+    
+    .LMS-content-header > h3 {
+        font-size: 1.5rem;
+    }
+    
+    .LMS-content-content {
+        flex-direction: column;
+    }
+    
+    .LMS-content-content .col-1, .LMS-content-content .col-2 {
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .LMS-content-content .content-1, .LMS-content-content .content-2 {
+        padding: 5px;
+    }
+    
+    .LMS-content-content .col-1 p,
+    .LMS-content-content .col-2 p {
+        height: auto;
+        font-size: medium;
+    }
+}

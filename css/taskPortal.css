@@ -1,0 +1,126 @@
+.taskPortal {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   overflow: hidden; 
+   margin: 20px 0px;
+}
+
+.portal-image {
+   position: absolute;
+   top: 25%;
+   left: 0;
+   width: 50%;
+   transform: translateX(-25%);
+   overflow: hidden;
+}
+
+.portal-image img {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.portal-content {
+   margin-left: 50%;
+   padding: 20px;
+   width: 50%;
+   box-sizing: border-box; /* Added to include padding in the width */
+}
+
+.portal-content-header > h2 {
+   font-size: 3rem;
+}
+
+.portal-content-header > h3 {
+   font-size: 2rem;
+}
+
+.portal-content-content {
+   display: flex;
+   flex-wrap: wrap; /* Added to ensure elements wrap within the container */
+}
+
+.portal-content-content .col-1, .col-2 {
+   padding: 20px;
+   flex: 1; /* Added for responsive layout */
+   box-sizing: border-box; /* Added to include padding in the width */
+}
+
+.portal-content-content .col-1 .content-1, 
+.portal-content-content .col-1 .content-2,
+.portal-content-content .col-2 .content-1, 
+.portal-content-content .col-2 .content-2 {
+   display: flex; 
+   padding: 10px;
+}
+
+/* First column */
+.portal-content-content .col-1 .content-1 .image,
+.portal-content-content .col-1 .content-2 .image,
+.portal-content-content .col-2 .content-1 .image,
+.portal-content-content .col-2 .content-2 .image {
+   margin: 0 15px 0 0;
+}
+
+.portal-content-content .col-1 .content-1 .image img,
+.portal-content-content .col-1 .content-2 .image img,
+.portal-content-content .col-2 .content-1 .image img,
+.portal-content-content .col-2 .content-2 .image img {
+   padding: 5px;
+   width: 40px;
+}
+
+.portal-content-content .col-1 p,
+.portal-content-content .col-2 p {
+   font-size: large;
+   color: #666;
+   height: 300px;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+   .taskPortal {
+      padding: 5px; 
+   }
+
+   .portal-image {
+      position: static; 
+      width: 100%;  
+      max-width: 100%; 
+      margin-bottom: 20px; 
+   }
+
+   .portal-content {
+      width: 100%; 
+      padding: 10px;
+      margin-left: 0; 
+   }
+
+   .portal-content-header > h2 {
+      font-size: 2rem; 
+   }
+
+   .portal-content-header > h3 {
+      font-size: 1.5rem; 
+   }
+
+   .portal-content-content .col-1, 
+   .portal-content-content .col-2 {
+      padding: 10px; 
+      width: 100%; 
+   }
+
+   .portal-content-content .content-1, 
+   .portal-content-content .content-2 {
+      padding: 5px; 
+   }
+
+   .portal-content-content .col-1 p,
+   .portal-content-content .col-2 p {
+      height: auto; 
+      font-size: medium; 
+   }
+}
