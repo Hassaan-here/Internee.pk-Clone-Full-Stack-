@@ -1,7 +1,7 @@
 
 <header>
   <div class="logo">
-    <a href="index.php"><img src="images/nav-logo (1).webp" alt="Internee.pk Logo" /></a>
+    <a href="index.php"><img src="./public/images/nav-logo (1).webp" alt="Internee.pk Logo" /></a>
   </div>
   <nav class="navbar" id="navbar">
     <ul>

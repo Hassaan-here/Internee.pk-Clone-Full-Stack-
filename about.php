@@ -1,9 +1,8 @@
 
-
 <!-- About  -->
 <section class="about">
   <div class="about-content">
-    <div class="png-logo"><img src="images/fav.png" alt="logo" /></div>
+    <div class="png-logo"><img src="./public/images/fav.png" alt="logo" /></div>
     <div class="about-text">
       <h1>Who is Internee.pk?</h1>
       <p>
@@ -16,9 +15,9 @@
     </div>
 
     <div class="icons">
-      <img src="images/icons8-backhand-index-pointing-down-48.png" alt="Icon" class="icon-img" />
+      <img src="./public/images/icons8-backhand-index-pointing-down-48.png" alt="Icon" class="icon-img" />
       <a href="#">Click Below and grab your internship now</a>
-      <img src="images/icons8-backhand-index-pointing-down-48.png" alt="Icon" class="icon-img" />
+      <img src="./public/images/icons8-backhand-index-pointing-down-48.png" alt="Icon" class="icon-img" />
     </div>
   </div>
 </section>

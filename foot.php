@@ -1,47 +1,11 @@
 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internee.pk</title>
-    <!-- Css -->
-     <link rel="stylesheet" href="css/head.css">
-    <link rel="stylesheet" href="css/hero.css" />
-    <link rel="stylesheet" href="css/internship.css" />
-    <link rel="stylesheet" href="css/carousal.css" />
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/fadeEffects.css">
-    <link rel="stylesheet" href="css/foot.css">
-    <!-- typed js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <!-- google font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <!-- js -->
-    <script src="js/carousal.js" defer></script>
-    <script src="js/typedtext.js"></script>
-    <script src="js/nav.js"></script>
-    <script src="js/fadeIn.js"></script>
-
-    <style>
-        body {
-            font-family: Barlow, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        a {
-            text-decoration: none;
-        }
-    </style>
-</head>
 
   <footer class="footer">
     <div class="container">
       <div class="footer-content">
       <div class="logo">
-    <img src="images/nav-logo (1).webp" alt="Internee.pk Logo" />
+    <img src="./public/images/nav-logo (1).webp" alt="Internee.pk Logo" />
   </div>
         <div class="footer-column">
           <h1 class="footer-title">Company</h1>
