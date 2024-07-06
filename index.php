@@ -1,31 +1,31 @@
 <?php
-include "library.php";
+include "./views/layouts/library.php";
 
-include "head.php";
+include "./views/layouts/partials/head.php";
 
-include "Hero.php";
+include "./views/frontend/Hero.php";
 
-include "about.php";
+include "./views/frontend/about.php";
 
- include "carousal.php"; 
+ include "./views/frontend/carousal.php"; 
 
- include "internship.php";
+ include "./views/frontend/internship.php";
 
- include "blog.php";
+ include "./views/frontend/blog.php";
 
- include "taskPortal.php";
+ include "./views/frontend/taskPortal.php";
 
- include "LMS.php";
+ include "./views/frontend/LMS.php";
 
- include "Courses.php";
+ include "./views/frontend/Courses.php";
 
- include "jobportal.php";
+ include "./views/frontend/jobportal.php";
 
- include "whyinternee.php";
+ include "./views/frontend/whyinternee.php";
 
- include "studentreviews.php";
+ include "./views/frontend/studentreviews.php";
 
 
- include "foot.php";
+ include "./views/layouts/partials/foot.php";
 ?>
 

@@ -13,7 +13,7 @@
     justify-content: center;
     margin: 20px 0px 20px 0px;
 }
-.blog-header h2,h3{
+.blog-header h2{
   margin: 0;
   padding: 0;
 }
@@ -22,16 +22,16 @@
     justify-content: space-between;
     margin: 50px 0px;
 }
-.blog-content .blog-1,.blog-2 ,.blog-3,.blog-4{
+.blog-content .blog{
     display: flex;
     flex-direction: column;
     margin: 0 10px;
-    >p{
-        font-size: 1.3rem;
-        color:  #666;
-    }
 }
-.blog-4 img{
+.blog p{
+    font-size: 1.3rem;
+        color:  #666;
+}
+.blog img{
     width: 300px;
     height: auto;
 }
@@ -43,7 +43,7 @@
         justify-content: space-between;
         margin: 50px 0px;
     }
-    .blog-4 img{
+    .blog img{
         width: 100%;
         height: auto;
     }
