@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/internship.css">
+<!-- <link rel="stylesheet" href="css/internship.css"> -->
 <!--internship Programs  -->
 <section class="programs">
   <div class="internship-content">
@@ -15,7 +15,7 @@
   <!-- cardss -->
   <div class="cards-section">
     <div class="cards">
-      <img src="images/hero.webp" alt="Backend Development" class="cards-image" />
+      <img src="./public/images/hero.webp" alt="Backend Development" class="cards-image" />
       <div class="cards-content">
         <h2>Backend Development</h2>
         <hr />

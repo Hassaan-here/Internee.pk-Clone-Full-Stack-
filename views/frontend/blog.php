@@ -34,7 +34,7 @@
       </p>
     </div>
     <div class="blog-4">
-        <img src="images/blog.PNG" alt=""certification>
+        <img src="./public/images/blog.PNG" alt=""certification>
       <h2>Ready to Showcase Your Expertise? Follow These Simple Steps!</h2>
       <p>
         To complete the process, send us all the task details via email at

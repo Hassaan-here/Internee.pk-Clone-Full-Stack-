@@ -20,7 +20,7 @@
       <div class="col-1">
         <div class="content-1">
           <div class="image hidden">
-            <img src="images/cloud-check-outline.svg" />
+            <img src="./public/images/cloud-check-outline.svg" />
           </div>
           <p>
             <strong>Sell Courses and Earn</strong> Are you an expert in your field? Share your
@@ -31,7 +31,7 @@
         </div>
         <div class="content-2">
           <div class="image hidden">
-            <img src="images/information-outline.svg" />
+            <img src="./public/images/information-outline.svg" />
           </div>
           <div>
             <p>
@@ -46,7 +46,7 @@
       <div class="col-2">
         <div class="content-1">
           <div class="image hidden">
-            <img src="images/magnify-plus-outline.svg" />
+            <img src="./public/images/magnify-plus-outline.svg" />
           </div>
           <div>
             <p>
@@ -58,7 +58,7 @@
         </div>
         <div class="content-2">
           <div class="image hidden">
-            <img src="images/folder-multiple-outline.svg" />
+            <img src="./public/images/folder-multiple-outline.svg" />
           </div>
           <div>
             <p>
@@ -73,6 +73,6 @@
     </div>
   </div>
   <div class="LMS-image left">
-    <img src="images/lms.png" alt="TaskLMS" />
+    <img src="./public/images/lms.png" alt="TaskLMS" />
   </div>
 </section>

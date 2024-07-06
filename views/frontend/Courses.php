@@ -2,7 +2,7 @@
 
 <section class="coursePortal">
   <div class="course-image right">
-    <img src="images/instructor.png" alt="instructor-portal" />
+    <img src="./public/images/instructor.png" alt="instructor-portal" />
   </div>
   <div class="course-content">
     <div class="course-content-header">
@@ -18,7 +18,7 @@
       <div class="col-1">
         <div class="content-1">
           <div class="image hidden">
-            <img src="images/text-box-search-outline.svg" />
+            <img src="./public/images/text-box-search-outline.svg" />
           </div>
           <p>
             <strong>Upload Tutorials & Excersice</strong> Transform your
@@ -30,7 +30,7 @@
         </div>
         <div class="content-2">
           <div class="image hidden">
-            <img src="images/download.svg" />
+            <img src="./public/images/download.svg" />
           </div>
           <div>
             <p>
@@ -45,7 +45,7 @@
       <div class="col-2">
         <div class="content-1">
           <div class="image hidden">
-            <img src="images/shape-outline.svg" />
+            <img src="./public/images/shape-outline.svg" />
           </div>
           <div>
             <p>
@@ -58,7 +58,7 @@
         </div>
         <div class="content-2">
           <div class="image hidden">
-            <img src="images/playlist-check.svg" />
+            <img src="./public/images/playlist-check.svg" />
           </div>
           <div>
             <p>

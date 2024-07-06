@@ -1,13 +1,13 @@
-
+<!-- 
 <link rel="stylesheet" href="css/slide-right.css">
 <link rel="stylesheet" href="css/taskPortal.css">
 <link rel="stylesheet" href="css/fadeIn.css">
   <script src="js/slideRight.js"></script>
-  <script src="js/fadeAnimations.js"></script>
+  <script src="js/fadeAnimations.js"></script> -->
 
 <section class="taskPortal">
   <div class="portal-image right">
-    <img src="images/task.webp" alt="TaskPortal" />
+    <img src="./public/images/task.webp" alt="TaskPortal" />
   </div>
   <div class="portal-content">
     <div class="portal-content-header">
@@ -21,7 +21,7 @@
       <div class="col-1">
         <div class="content-1">
           <div class="image hidden">
-            <img src="images/presentation-play.svg" />
+            <img src="./public/images/presentation-play.svg" />
           </div>
           <p>
             <strong>Hands on Projects</strong> we believe in learning by doing.
@@ -32,7 +32,7 @@
         </div>
         <div class="content-2">
           <div class="image  hidden">
-            <img src="images/cellphone-link.svg" />
+            <img src="./public/images/cellphone-link.svg" />
           </div>
           <div>
             <p>
@@ -47,7 +47,7 @@
       <div class="col-2">
         <div class="content-1">
           <div class="image hidden">
-            <img src="images/account-multiple-plus-outline.svg" />
+            <img src="./public/images/account-multiple-plus-outline.svg" />
           </div>
           <div>
             <p>
@@ -61,7 +61,7 @@
         </div>
         <div class="content-2">
           <div class="image hidden">
-            <img src="images/playlist-check.svg" />
+            <img src="./public/images/playlist-check.svg" />
           </div>
           <div>
             <p>

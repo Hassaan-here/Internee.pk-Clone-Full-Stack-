@@ -1,8 +1,4 @@
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-/>
-<link rel="stylesheet" href="css/Contact.css" />
+
 
 <section>
   <div class="milestone-section">
@@ -11,7 +7,7 @@
         <div class="inline-icons">
           <div class="dots"></div>
           <div class="icon">
-            <img src="images/icons8-shield-64.png" alt="Shield Icon" />
+            <img src="./public/images/icons8-shield-64.png" alt="Shield Icon" />
           </div>
         </div>
         <div class="text">
@@ -27,7 +23,7 @@
       <div class="milestone">
         <div class="dots"></div>
         <div class="icon">
-          <img src="images/icons8-pulse-48.png" alt="Heartbeat Icon" />
+          <img src="./public/images/icons8-pulse-48.png" alt="Heartbeat Icon" />
         </div>
         <div class="text">
           <h2>15k+ LinkedIn Family</h2>
@@ -41,7 +37,7 @@
       <div class="milestone">
         <div class="dots"></div>
         <div class="icon">
-          <img src="images/icons8-anchor-32.png" alt="Heartbeat Icon" />
+          <img src="./public/images/icons8-anchor-32.png" alt="Heartbeat Icon" />
         </div>
         <div class="text">
           <h2>19 Courses on LMS</h2>
@@ -57,7 +53,7 @@
         <div class="dots"></div>
         <div class="icon">
           <img
-            src="images/account-multiple-plus-outline.svg"
+            src="./public/images/account-multiple-plus-outline.svg"
             alt="Heartbeat Icon"
           />
         </div>
