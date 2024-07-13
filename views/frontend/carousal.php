@@ -12,41 +12,28 @@
 
       </h2>
     </div>
-    <div class="card">
-      <img src="images/BackendDevelopment.webp" alt="Placeholder Image 1">
-      <h2>BackendDevelopment</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nesciunt totam dignissimos, vitae natus quod ipsam quos nostrum illum facilis, laborum, cumque tempora ut ducimus provident architecto voluptatem illo doloremque.</p>
-      <button class="apply-btn">Apply Now</button>
-    </div>
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200" alt="Placeholder Image 2">
-      <h2>Card Title 2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <button class="apply-btn">Apply Now</button>
-    </div>
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200" alt="Placeholder Image 3">
-      <h2>Card Title 3</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <button class="apply-btn">Apply Now</button>
-    </div>
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200" alt="Placeholder Image 4">
-      <h2>Card Title 4</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <button class="apply-btn">Apply Now</button>
-    </div>
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200" alt="Placeholder Image 5">
-      <h2>Card Title 5</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <button class="apply-btn">Apply Now</button>
-    </div>
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200" alt="Placeholder Image 6">
-      <h2>Card Title 6</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <button class="apply-btn">Apply Now</button>
-    </div>
+
+    <?php
+
+    $connection = mysqli_connect('localhost', 'root', '', 'internee.pk') or die();
+
+    $sql = "SELECT * FROM  internship_programs";
+
+    $result = mysqli_query($connection, $sql);
+
+
+    if (mysqli_num_rows($result) > 0) {
+      while ($row = mysqli_fetch_assoc($result)) {
+    ?>
+        <div class="card">
+          <img src="<?php echo $row['image_path'] ?>" alt="Placeholder Image 1">
+          <h2><?php echo $row['name'] ?></h2>
+          <p><?php echo $row['description'] ?></p>
+          <button class="apply-btn">Apply Now</button>
+        </div>
+    <?php
+      }
+    }
+    ?>
   </div>
 </section>

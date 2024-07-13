@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form section  */
+
+.card {
+  width: 90%;
+  max-width: 350px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 10px auto; /* Center the card horizontally */
+  padding: 20px; /* Added some padding for better spacing */
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px 5px #b3bdb6;
+  background-color: white;
+}
+
+.form-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-logo img {
+  max-width: 80%;
+  height: auto;
+}
+.input-container {
+  position: relative;
+  width: 100%;
+}
+.input-container .fa-envelope,
+.fa-eye-slash {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+input[id="email"],
+input[id="Password"],
+input[id="name"] {
+  width: 100%;
+  height: 3rem;
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(212, 210, 210);
+}
+#error-message {
+  color: red;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(212, 210, 210);
+  background-color: #f7d7d7;
+  display: none;
+}
+#sign-in {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+  padding: 5px;
+  border: 1px solid rgb(212, 210, 210);
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(252, 250, 250);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    max-width: 300px;
+    min-height: 250px;
+    display: flex;
+    align-self: center;
+  }
+}

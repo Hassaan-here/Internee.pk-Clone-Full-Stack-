@@ -1,4 +1,3 @@
-
 <header>
   <div class="logo">
     <a href="index.php"><img src="./public/images/nav-logo (1).webp" alt="Internee.pk Logo" /></a>
@@ -13,11 +12,11 @@
       </li>
       <li>
         <button class="internee-login">
-          <a href="#">Internee's Login</a>
+          <a href="http://localhost/PHP/Internship/Task1/Internee.pk-Clone-Full-Stack-/views/internee_portal/login.php">Internee's Login</a>
         </button>
       </li>
       <li><a href="#" class="hidden-btns">Job Portal</a></li>
-      <li><a href="#" class="hidden-btns">Internee's Login</a></li>
+      <li><a href="http://localhost/PHP/Internship/Task1/Internee.pk-Clone-Full-Stack-/views/internee_portal/login.php" class="hidden-btns">Internee's Login</a></li>
     </ul>
   </nav>
   <div class="menu-icon" onclick="toggleNavbar()">&#9776;</div>

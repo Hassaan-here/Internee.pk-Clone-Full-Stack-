@@ -40,6 +40,7 @@
     <script src="./public/js/slideRight.js"></script>
     <script src="./public/js/slideLeft.js"></script>
     <script src="./public/js/carousal.js"></script>
+    <script src="./public/js/dashboard.js" defer></script>
 
     <style>
         body {

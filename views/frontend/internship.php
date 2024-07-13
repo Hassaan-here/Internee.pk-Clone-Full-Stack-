@@ -14,35 +14,31 @@
   </div>
   <!-- cardss -->
   <div class="cards-section">
-    <div class="cards">
-      <img src="./public/images/hero.webp" alt="Backend Development" class="cards-image" />
-      <div class="cards-content">
-        <h2>Backend Development</h2>
-        <hr />
-        <div class="cards-btn">
-          <button class="apply-btn">Apply now</button>
+
+    <?php
+    $connection = mysqli_connect('localhost', 'root', '', 'internee.pk') or die();
+
+    $sql = "SELECT * FROM  internship_programs";
+
+    $result = mysqli_query($connection, $sql);
+
+
+    if (mysqli_num_rows($result) > 0) {
+      while ($row = mysqli_fetch_assoc($result)) {
+    ?>
+        <div class="cards">
+          <img src="<?php echo $row['image_path'] ?>"  class="cards-image" />
+          <div class="cards-content">
+            <h2><?php echo $row['name'] ?></h2>
+            <hr />
+            <div class="cards-btn">
+              <button class="apply-btn">Apply now</button>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="cards">
-      <img src="images/hero.webp" alt="Backend Development" class="cards-image" />
-      <div class="cards-content">
-        <h2>Backend Development</h2>
-        <hr />
-        <div class="cards-btn">
-          <button class="apply-btn">Apply now</button>
-        </div>
-      </div>
-    </div>
-    <div class="cards">
-      <img src="images/hero.webp" alt="Backend Development" class="cards-image" />
-      <div class="cards-content">
-        <h2>Backend Development</h2>
-        <hr />
-        <div class="cards-btn">
-          <button class="apply-btn">Apply now</button>
-        </div>
-      </div>
-    </div>
+    <?php
+      }
+    }
+    ?>
   </div>
 </section>
